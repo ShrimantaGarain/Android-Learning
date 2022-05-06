@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UniCon</string>
+    <string name="enter_the_kg_value">Enter the Kg value</string>
+    <string name="enter_the_kg_value_below">Enter The Kg Value Below</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="Idhar_likh_Bhai" />
+</resources>

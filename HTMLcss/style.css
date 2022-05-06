@@ -1,0 +1,206 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+#txtcss{
+    font-family: 'Roboto', sans-serif;
+    color: darkolivegreen;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+} /*CSS link type */
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: hotpink;
+
+}
+a:hover{
+    color: indigo;
+}
+a:active{
+    color: lightseagreen;
+
+    /* Border in csss */
+}
+.bordercss{
+    width: 500px;
+    height: 500px;
+    background-color: maroon;
+    border-color: greenyellow;
+    border-width: 5px;
+    border-style: groove;
+
+    /*[ border:5px dashed greenyellow; ]  upr ke tin line bi eksath lik sakte hai ese */
+
+    border-radius: 60px;
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: upper-roman;
+
+    /* HTML CSS box model user input box */
+}
+.boxmodel{
+    width: 500px;
+    height: 200px;
+    background-color: lawngreen;
+    padding-left: 20px;
+}
+    input{
+       padding: 5px 5px 5px 5px;   /*  isse input box ke ander allaround se padding mil jaigi and it start from TOP,RIGHT,BOTTOM,LEFT */
+       margin: 10px;
+    }
+    /* adding a text box with scroll */
+#scroll{
+    width: 200px;
+    height: 100px;
+    border: 5px groove greenyellow;
+    overflow: scroll;
+}
+#scroll2{
+    width: 200px;
+    height: 100px;
+    border: 5px double red;
+    overflow: scroll;
+}
+
+/* postioning color to any child */
+.father{
+    width: 600px;
+    height: 300px;
+    background-color: crimson;
+}
+.child1{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+}
+.child2{
+    width: 100px;
+    height: 50px;
+    background-color: teal;
+}
+.child3{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+}
+.child4{
+    width: 100px;
+    height: 50px;
+    background-color: darkorange;
+}
+/* absolute postioning in parent child */
+.father2{
+    width: 600px;
+    height: 300px;
+    background-color: crimson;
+    position: relative;
+}
+.child11{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    position :absolute;
+    left: 0;
+}
+.child12{
+    width: 100px;
+    height: 50px;
+    background-color: teal;
+    position: absolute;
+    right: 0;
+}
+.child13{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.child14{
+    width: 100px;
+    height: 50px;
+    background-color: darkorange;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* z index in css */
+
+.father3{
+    width: 600px;
+    height: 300px;
+    background-color: crimson;
+    position: relative;
+}
+.child21{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    position :absolute;
+    z-index: 3;
+}
+.child22{
+    width: 100px;
+    height: 50px;
+    background-color: teal;
+    position: absolute;
+    z-index: 2;
+    
+}
+.child23{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    
+   
+
+}
+.child24{
+    width: 100px;
+    height: 50px;
+    background-color: darkorange;
+    position: absolute;
+    
+  
+}
+/* float in css */
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.logo{
+    width: 30%;
+    line-height: 80px;
+    text-align: center;
+    background-color: chocolate;
+    float: left;
+
+}
+.menu{
+    width: 70%;
+    height: 80px;
+    background-color: green;
+    float: right;
+}
+ul{
+    list-style: none;
+    text-align: right;
+    /* direction: rtl;   same as text aligh */
+    padding: 0 10px;
+}
+li{
+    display: inline-block;
+    /* border: 1px solid black; */
+}

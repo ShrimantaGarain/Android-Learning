@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">multipli</string>
+    <string name="result">Result</string>
+    <string name="todo">TODO</string>
+    <string name="enter_the_value">Enter the value :</string>
+    <string name="button">Button</string>
+    <string name="n1">n1</string>
+    <string name="n2">n2</string>
+</resources>
